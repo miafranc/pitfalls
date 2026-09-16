@@ -2,13 +2,13 @@
 
 ## `settings.py`
 
-The file `settings.py` contain all the settable parameters for the models used in the experiments,
+The file `settings.py` contains all the settable parameters for the models used in the experiments,
 for example `IMG_SIZE`, `BATCH_SIZE`, `NUM_EPOCHS`, etc.
 These can be set also from the code by importing the `settings` module.
 
 ## Datasets
 
-The dataset used in the experiments are the following:
+The datasets used in the experiments are the following:
 * CUB: [https://www.vision.caltech.edu/datasets/cub_200_2011/](https://www.vision.caltech.edu/datasets/cub_200_2011/)
 * Stanford Dogs: [http://vision.stanford.edu/aditya86/ImageNetDogs/](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 
@@ -26,8 +26,7 @@ To test/evaluate a trained model one has to call the `test` method giving the pa
 
 ## ProtoPNet
 
-The `protopnet` folder contains the code of [ProtoPNet](https://github.com/cfchen-duke/ProtoPNet), having some imports slighty modified 
-in order to work properly.
+The `protopnet` folder contains the code of [ProtoPNet](https://github.com/cfchen-duke/ProtoPNet), having some imports slighty modified in order to work properly.
 
 ### Preprocessing
 
@@ -52,7 +51,7 @@ The path pointing to the CUB dataset has to contain the following 3 files (inclu
 * `parts.txt`
 * `part_locs.txt`
 
-In this case, `TEST_DIR` has to point the full test directory instead of the cropped images.
+In this case, `TEST_DIR` has to point to the full test directory instead of the cropped images.
 
 
 ## Conda environments
